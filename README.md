@@ -1,1 +1,0 @@
-# tecpit-kanban
