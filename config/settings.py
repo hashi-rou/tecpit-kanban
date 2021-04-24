@@ -85,7 +85,7 @@ DATABASES = {
              'HOST': 'ec2-54-198-252-9.compute-1.amazonaws.com',
              'NAME': 'dcjurkppfcorbn',
              'OPTIONS': {},
-             'PASSWORD': '********************',
+             'PASSWORD': '',
              'PORT': 5432,
              'TEST': {'CHARSET': None,
                       'COLLATION': None,
@@ -93,7 +93,7 @@ DATABASES = {
                       'MIRROR': None,
                       'NAME': None},
              'TIME_ZONE': None,
-             'USER': 'gmqyxgzmrextfy'
+             'USER': 'gmqyxgzmrextfy',
     }
 }
 
