@@ -93,7 +93,7 @@ DATABASES = {
                       'MIRROR': None,
                       'NAME': None},
              'TIME_ZONE': None,
-             'USER': 'gmqyxgzmrextfy',
+             'USER': 'gmqyxgzmrextfy'
     }
 }
 
