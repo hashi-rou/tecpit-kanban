@@ -78,8 +78,22 @@ import os
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ATOMIC_REQUESTS': False,
+        'AUTOCOMMIT': True,
+        'CONN_MAX_AGE': 600,
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'HOST': 'ec2-54-198-252-9.compute-1.amazonaws.com',
+        'NAME': 'dcjurkppfcorbn',
+        'OPTIONS': {},
+        'PASSWORD': 'c121a1b00958ee41669b1cf6dfa44bbc09c1cdec2ff83377825b3e9c626b0aa4',
+        'PORT': 5432,
+        'TEST': {'CHARSET': None,
+            'COLLATION': None,
+            'MIGRATE': True,
+            'MIRROR': None,
+            'NAME': None},
+        'TIME_ZONE': None,
+        'USER': 'gmqyxgzmrextfy'
     }
 }
 
