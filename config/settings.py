@@ -24,6 +24,7 @@ SECRET_KEY = 't!fbx+5q!(hd78)q5u^$#+!%t^k0%l8z%^ih(m7etdxn#y=o4t'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 
+ADMINS = ['Kotaro','hk19968104@gmail.com']
 
 ALLOWED_HOSTS = ["kanban-1004.herokuapp.com"]
 
@@ -149,8 +150,6 @@ except ImportError:
 if not DEBUG:
     import django_heroku
     django_heroku.settings(locals())
-
-DEBUG = True
 
 LOGGING = {
     'version': 1,
