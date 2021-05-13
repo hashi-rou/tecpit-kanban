@@ -22,3 +22,5 @@ urlpatterns = [
     path("cards/<int:pk>/delete/", views.CardDeleteView.as_view(), name="cards_delete"),
     path("cards/create/<int:list_pk>", views.CardCreateFromHomeView.as_view(), name="cards_create_from_home"),
 ]
+
+handler500 = views.my_customized_server_error
