@@ -150,7 +150,7 @@ if not DEBUG:
     import django_heroku
     django_heroku.settings(locals())
 
-DEBUG = False
+DEBUG = True
 
 LOGGING = {
     'version': 1,
