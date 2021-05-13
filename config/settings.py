@@ -150,6 +150,8 @@ if not DEBUG:
     import django_heroku
     django_heroku.settings(locals())
 
+DEBUG = False
+
 LOGGING = {
     'version': 1,
     'disable_existing_loggers': False,
